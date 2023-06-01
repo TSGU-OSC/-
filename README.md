@@ -33,6 +33,6 @@
 ## 学习资源推荐
 学习开源基础知识是参与开源项目的关键。以下是一些学习资源推荐：
 
-* Open Source Guides：由 GitHub 提供的一系列开源指南，涵盖了开源项目的各个方面。
-* How to Contribute to Open Source：一篇详细介绍如何参与开源项目的指南。
-* Open Source for Beginners：DigitalOcean 提供的针对开源初学者的系列教程。
+* Open Source Guides[https://opensource.guide/]：由 GitHub 提供的一系列开源指南，涵盖了开源项目的各个方面。
+* How to Contribute to Open Source[https://opensource.guide/how-to-contribute/]：一篇详细介绍如何参与开源项目的指南。
+* Open Source for Beginners[https://www.digitalocean.com/community/tutorial_series/open-source-for-beginners]：DigitalOcean 提供的针对开源初学者的系列教程。
