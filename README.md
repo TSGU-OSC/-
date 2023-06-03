@@ -33,7 +33,8 @@
 ## 学习资源推荐
 学习开源基础知识是参与开源项目的关键。以下是一些学习资源推荐：
 
-* [git介绍常用命令](command/git_command.md)
+* [git介绍及常用命令](command/git_command.md)
+* [Linux/Unix常用命令](command/Linux_command.md)
 * [windows常用命令](command/Windows_command.md)
 
 * [Open Source Guides](https://opensource.guide/)：由 GitHub 提供的一系列开源指南，涵盖了开源项目的各个方面。
