@@ -72,6 +72,35 @@ grep ：在文件中搜索匹配指定模式的行。
 ```
 grep <pattern> <file>
 ```
+## 互传文件
+### 本地向Linux传文件
+* scp命令
+```
+scp /path/to/local/file username@remote_host:/path/to/destination
+```
+
+* sftp
+```
+sftp username@remote_host
+put /path/to/local/file /path/to/destination
+```
+
+### Linux向本地传文件
+* scp命令
+```
+scp username@remote_host:/path/to/file /path/to/destination
+```
+* sftp
+```
+sftp username@remote_host
+get /path/to/file /path/to/destination
+```
+
+### 如果需要传输文件夹 就在scp命令后加一个参数-r
+下例是Linux向本地传输文件夹
+```
+scp -r username@remote_host:/path/to/folder /path/to/destination
+```
 
 ## 系统管理
 top：显示系统中正在运行的进程和资源使用情况。
