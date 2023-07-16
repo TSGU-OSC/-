@@ -152,6 +152,10 @@ netstat
 ```
 netstat -apn | grep LISTEN
 ```
+lsof命令查看具体端口占用情况
+```
+sudo lsof -i :端口号
+```
 
 ssh <user>@<host>：通过 SSH 连接到远程主机。
 ```
