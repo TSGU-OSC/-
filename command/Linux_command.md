@@ -148,6 +148,10 @@ netstat：显示网络连接和统计信息。
 ```
 netstat
 ```
+查看端口占用情况
+```
+netstat -apn | grep LISTEN
+```
 
 ssh <user>@<host>：通过 SSH 连接到远程主机。
 ```
