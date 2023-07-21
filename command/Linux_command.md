@@ -182,3 +182,13 @@ unzip ：解压缩 .zip 压缩文件。
 ```
 unzip <archive.zip>
 ```
+
+## 用户管理
+添加新用户
+```
+sudo adduser username
+```
+给用户设置root权限
+```
+sudo usermod -aG sudo username
+```
