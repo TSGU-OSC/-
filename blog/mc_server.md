@@ -8,7 +8,7 @@
 具体网址如 `https://mcversions.net/download/1.17.1` 
 将网址末端`1.17.1`替换为你需要的版本
 
-将`server.jar`文件上传至服务器可以使用`ftp`命令
+将`server.jar`文件上传至服务器可以使用`sftp`命令
 
 建议单独放置在一个文件夹`minecraft_server`
 
