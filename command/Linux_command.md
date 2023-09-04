@@ -72,6 +72,11 @@ grep ：在文件中搜索匹配指定模式的行。
 ```
 grep <pattern> <file>
 ```
+du : 查看文件大小
+```
+du -h filename
+``` 
+
 ## 互传文件
 ### 本地向Linux传文件
 * scp命令
