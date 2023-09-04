@@ -173,9 +173,9 @@ tar -czvf ：将指定目录压缩为 .tar.gz 归档文件。
 tar -czvf <archive.tar.gz> <directory>
 ```
 
-tar -xJvf ：解压缩 .tar.gz 归档文件。
+tar -xzvf ：解压缩 .tar.gz 归档文件。
 ```
-tar -xJvf <archive.tar.gz>
+tar -xzvf <archive.tar.gz>
 ```
 
 zip ：将指定文件打包为 .zip 压缩文件。
