@@ -188,7 +188,7 @@ unzip ：解压缩 .zip 压缩文件。
 unzip <archive.zip>
 ```
 
-## 用户管理
+## 用户及权限管理
 添加新用户
 ```
 sudo adduser username
@@ -196,4 +196,16 @@ sudo adduser username
 给用户设置root权限
 ```
 sudo usermod -aG sudo username
+```
+进入超级用户模式
+```
+sudo su
+```
+或者
+```
+sudo -s
+```
+退出超级用户模式
+```
+exit
 ```
