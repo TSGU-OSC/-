@@ -35,7 +35,7 @@ docker image rm <image>
 ```
 * `<image>`可以是长ID，短ID（取前三位），镜像名
 
-http://download.redis.io/releases/redis-5.0.3.tar.gz
+
 
 ### 操作容器
 创建容器
