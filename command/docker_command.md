@@ -34,6 +34,18 @@ docker system df
 docker image rm <image>
 ```
 * `<image>`可以是长ID，短ID（取前三位），镜像名
+### 提交镜像
+```
+docker commit <container_name> <new_image_name>
+```
+* `<container_name>` 替换为实际的容器名称或ID
+* `<new_image_name>` 替换为新镜像的命名
+### 通过Dockerfile下载镜像
+在Dockerfile文件所在目录下执行以下命令
+```
+docker build -t <new_image_name> .
+```
+* `<new_image_name>` 替换为新镜像的命名
 
 
 
@@ -68,6 +80,5 @@ docekr ps
 ```
 docker ps -a
 ```
-
 
 
