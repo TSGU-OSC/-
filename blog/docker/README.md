@@ -8,11 +8,13 @@
 
 [官网](https://www.centos.org/centos-stream/#download)
 
-[清华镜像](https://mirrors.tuna.tsinghua.edu.cn/centos-stream/9-stream/BaseOS/x86_64/iso/)![Alt text](image.png)
+[清华镜像](https://mirrors.tuna.tsinghua.edu.cn/centos-stream/9-stream/BaseOS/x86_64/iso/)
+![Alt text](./imgs/image.png)
 
 centos安装到本地虚拟机可以使用[VMWare Worksation Player](https://www.vmware.com/products/workstation-player.html)
 
-进入VMWare软件，新建虚拟机，参数默认即可，后期可以根据需求调整。![Alt text](image-1.png)
+进入VMWare软件，新建虚拟机，参数默认即可，后期可以根据需求调整。
+![Alt text](./imgs/image-1.png)
 
 由于CentOS包管理器yum的下载服务器在境外，比较慢 可以进行换源 
 ```
@@ -54,12 +56,12 @@ sudo yum install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 [rpm下载地址](https://download.docker.com/linux/centos/9/x86_64/stable/Packages/)
 
 下载各个组件最新版本即可 
-![Alt text](image-3.png)
+![Alt text](./imgs/image-3.png)
 将所有rpm打包 可以使用scp命令进行上传
 ```
 scp Archive.zip jack@192.168.31.86:/home/jack/Documents
 ```
-![Alt text](image-2.png)
+![Alt text](./imgs/image-2.png)
 
 在centos解压包
 ```
@@ -71,7 +73,7 @@ unzip Archive.zip
 ```
 sudo yum install *.rpm
 ```
-![Alt text](image-6.png)
+![Alt text](./imgs/image-6.png)
 启动服务
 ```
 sudo systemctl start docker
@@ -94,9 +96,9 @@ cd到/etc/docker/目录下 创建daemon.json文件
 cd /etc/docker/
 
 ```
-![Alt text](image-7.png)
+![Alt text](./imgs/image-7.png)
 使用vim写入``{ "registry-mirrors": ["https://bb6s1gkq.mirror.aliyuncs.com"] }``
-![Alt text](image-8.png)
+![Alt text](./imgs/image-8.png)
 
 ## 制作容器
 
@@ -107,7 +109,7 @@ cd /etc/docker/
 docker pull nginx
 docker run -d -p 80:80 --name nginx nginx
 ```
-![Alt text](image-9.png)
+![Alt text](./imgs/image-9.png)
 下载网络工具
 ```
 sudo yum install net-tools
@@ -116,21 +118,21 @@ sudo yum install net-tools
 ```
 ifconfig
 ```
-![Alt text](image-11.png)
+![Alt text](./imgs/image-11.png)
 将ip地址输入至浏览器
-![Alt text](image-10.png)
+![Alt text](./imgs/image-10.png)
 
 打包vue前端项目 找到``.env.production``文件 修改``VITE_APP_BASE_API``为虚拟机的ip地址加后端留出的端口
-![Alt text](image-27.png)
+![Alt text](./imgs/image-27.png)
 
 在vue项目目录下打开terminal 输入命名 打包程序
 ```
 npm run build:prod
 ```
 打包成功后 html代码会生成在项目根目录下的dist目录
-![Alt text](image-13.png)
+![Alt text](./imgs/image-13.png)
 重新开一个terminal 可以将dist目录打包上传至虚拟机，在此笔者就演示scp命令
-![Alt text](image-16.png)
+![Alt text](./imgs/image-16.png)
 
 在虚拟机里写好一个配置文件
 ```
@@ -139,9 +141,9 @@ touch vue.conf
 vim vue.conf
 ```
 编辑vue.conf 输入以下内容
-![Alt text](image-14.png)
+![Alt text](./imgs/image-14.png)
 将此配置文件复制进nginx容器内 具体参考图片内的命令。然后复制dist目录，发现没有app目录，于是进入容器创建此目录
-![Alt text](image-17.png)
+![Alt text](./imgs/image-17.png)
 
 访问centos ip 发现页面没有更换 于是重启下nginx容器
 ```
@@ -149,7 +151,7 @@ docker stop nginx
 docker start nginx
 ```
 网页成功加载，由于后端服务未部署，所以无法进入后台
-![Alt text](image-15.png)
+![Alt text](./imgs/image-15.png)
 
 
 ### 后端centos容器制作
@@ -168,7 +170,7 @@ sed -i -e "s|releasever|releasever-stream|g" /etc/yum.repos.d/CentOS-*
 yum clean all && yum makecache
 ```
 下载passwd成功 证明换源成功
-![Alt text](image-18.png)
+![Alt text](./imgs/image-18.png)
 设置密码
 ```
 passwd root
@@ -185,12 +187,12 @@ docker exec -it centos /bin/bash
 yum install -y java-17
 ```
 打包后端java项目 打包前需要修改mysql的ip地址为centos的，用户名和密码自定义 但需要和稍后制作的mysql容器保持一致
-![Alt text](image-19.png)
+![Alt text](./imgs/image-19.png)
 点击IDEA右侧的Maven项目管理工具，点击package一键打包
-![Alt text](image-20.png)
+![Alt text](./imgs/image-20.png)
 在项目目录下的targets目录找到jar包 上传至centos
-![Alt text](image-21.png)
-![Alt text](image-22.png)
+![Alt text](./imgs/image-21.png)
+![Alt text](./imgs/image-22.png)
 复制此jar进centos容器内 并运行
 ```
 docker cp youolai-boot.jar centos:/root
@@ -203,13 +205,13 @@ docker pull mysql
 docker run --name mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=111111 -d mysql
 ```
 将项目sql脚本上传
-![Alt text](image-24.png)
-![Alt text](image-25.png)
+![Alt text](./imgs/image-24.png)
+![Alt text](./imgs/image-25.png)
 将脚本复制进mysql容器并运行
-![Alt text](image-26.png)
+![Alt text](./imgs/image-26.png)
 
 访问网页 成功登入 前 后 数据库已成功连接
-![Alt text](image-12.png)
+![Alt text](./imgs/image-12.png)
 
 ## 总结
 
