@@ -191,11 +191,15 @@ unzip <archive.zip>
 ## 用户及权限管理
 添加新用户
 ```
-sudo adduser username
+sudo adduser <username>
+```
+给用户设置密码
+```
+passwd <username>
 ```
 给用户设置root权限
 ```
-sudo usermod -aG sudo username
+sudo usermod -aG sudo <username>
 ```
 进入超级用户模式
 ```
