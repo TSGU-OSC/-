@@ -72,9 +72,9 @@ grep ：在文件中搜索匹配指定模式的行。
 ```
 grep <pattern> <file>
 ```
-du : 查看文件大小
+du : 查看文件或文件夹大小
 ```
-du -h filename
+du -h --max-depth=0 directory
 ``` 
 
 ## 互传文件
