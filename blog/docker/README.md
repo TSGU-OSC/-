@@ -213,6 +213,24 @@ docker run --name mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=111111 -d mysql
 访问网页 成功登入 前 后 数据库已成功连接
 ![Alt text](./imgs/image-12.png)
 
+### minio容器制作
+创建minio容器
+```
+docker run -dit -p 9000:9000 -p 50000:50000 --restart=always -v /home/ainoeliya/app/minio/data/data-1:/data-1 -v /home/ainoeliya/app/minio/data/data-2:/data-2 -v /home/ainoeliya/app/minio/data/data-3:/data-3 -v /home/ainoeliya/app/minio/data/data-4:/data-4 -v /home/ainoeliya/app/minio/data/data-5:/data-5 -v /home/ainoeliya/app/minio/data/data-6:/data-6 -v /home/ainoeliya/app/minio/data/data-7:/data-7 -v /home/ainoeliya/app/minio/data/data-8:/data-8 -e "MINIO_ROOT_USER=admin" -e "MINIO_ROOT_PASSWORD=12345678" --name minio --privileged=true minio/minio server /data-{1...8} --console-address ":50000"
+```
+
+### 网络桥接
+由于业务需求，minio容器和后端centos容器在同一个局域网下
+于是创建一个docker网络
+```
+docker network create my-net
+```
+对两个容器进行桥接
+```
+docker network connect my-net 6aa
+docker network connect my-net 95b
+```
+
 ## 总结
 
 本次示例分别使用nginx，centos，mysql三个容器来运行前端，后端，数据库服务，仅仅是为了让大家熟悉一下java项目的组成以及docker的使用

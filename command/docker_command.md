@@ -80,5 +80,3 @@ docekr ps
 ```
 docker ps -a
 ```
-
-
