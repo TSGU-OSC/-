@@ -62,6 +62,10 @@ git push
 ```
 git log
 ```
+查看提交状态
+```
+git status
+```
 代码回滚
 ```
 git reset --hard <commit_id>
@@ -71,12 +75,30 @@ git reset --hard <commit_id>
 git push orgin main --force
 ```
 
-## 查看可用分支
+### 查看可用分支
 ```
 git branch
 ```
-## 切换到可用分支
+### 切换到可用分支
 ```
 git checkout <branch-name>
+```
+
+## 修改历史记录
+
+使用filter-branch工具删除指定文件"*.ipch"
+```
+git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch **/*.ipch' --prune-empty --tag-name-filter cat -- --all
+```
+
+
+使用bfg工具删除指定文件夹名
+```
+bfg --delete-folders ".vs"  
+```
+
+删除后执行以下命令实现垃圾回收，合并对象
+```
+git reflog expire --expire=now --all && git gc --prune=now --aggressive 
 ```
 
