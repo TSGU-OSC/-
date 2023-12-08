@@ -213,3 +213,28 @@ sudo -s
 ```
 exit
 ```
+## 查看硬件信息
+查看cpu信息
+```
+cat /proc/cpuinfo
+```
+或者
+```
+lscpu
+```
+查询内存信息
+```
+cat /proc/meminfo
+```
+查询硬盘信息
+```
+df -h
+```
+查询gpu信息
+```
+lspci | grep -i vga
+```
+如果安装了nvdia驱动 则可以执行
+```
+nvidia-smi
+```
