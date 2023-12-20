@@ -80,3 +80,12 @@ docekr ps
 ```
 docker ps -a
 ```
+
+保存镜像
+```
+docker save -o ubuntu.tar ubuntu
+```
+加载镜像
+```
+docker load -i ubuntu.tar
+```
