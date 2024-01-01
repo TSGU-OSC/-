@@ -5,7 +5,9 @@
 ### 下载Xcode
 Xcode包含了C++开发的大部分工具，编译器，GDB调试工具等
 直接在app store就可以搜索到
-![Alt text](image.png)
+
+![Alt text](./image/image.png)
+
 下载完成之后 需要在终端里输入一行命令安装命令行工具
 ```
 xcode-select --install
@@ -21,9 +23,13 @@ xcode-select --install
 下载``code runner``
 
 ![Alt text](./image/image-3.png)
+
 按照下面操作打开设置面板
+
 ![Alt text](./image/image-5.png)
+
 搜索code runner 往下翻看 找到RUN IN TERMINAL 一定要选择上
+
 ![Alt text](./image/image-4.png)
 
 任何选择一个文件夹 新建一个代码文件 写入简单的程序
@@ -41,13 +47,20 @@ int main()
 ### 配置调试环境
 
 首先需要下载一个插件
+
 ![Alt text](./image/image-7.png)
+
 在任意代码文件下点击调试右上角的debug按钮 
+
 ![Alt text](./image/image-10.png)
+
 点击debug界面 设置launch.json文件
+
 ![Alt text](./image/image-11.png)
 ![Alt text](./image/image-12.png)
+
 将Launch.json文件修改如下
+
 ![Alt text](./image/image-8.png)
 
 调试成功
