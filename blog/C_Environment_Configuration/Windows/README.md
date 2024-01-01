@@ -182,7 +182,7 @@ int main()
 
 如果没有自动生成launch.json文件则点击这里如图所示：
 
-![image_16](./image_16.png)
+![image_16](./image/image_16.png)
 
 如果自动生成则不用管
 
