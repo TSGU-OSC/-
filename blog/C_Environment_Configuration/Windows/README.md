@@ -68,7 +68,7 @@ g++ --version
 
 随后向下滑动选择1.8.4版本
 
-！[image_21](./image/image_21.png)
+![image_21](./image/image_21.png)
 
 此时最好重启VSCode让扩展生效。
 
