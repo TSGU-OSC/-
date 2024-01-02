@@ -10,9 +10,9 @@ Conda的优点在于它可以快速地安装和更新软件包，并且可以解
 
 ## 问题复现
 使用 ``conda env list``
-![Alt text](image.png)
+![Alt text](./image/image.png)
 并且conda activate 没有显示名字的环境是不可以的 
-![Alt text](image-1.png)
+![Alt text](./image/image-1.png)
 ## 解决方案
 ### 以下操作以激活 ``pytorch_env`` 为例
 

@@ -17,12 +17,12 @@ libswresample
 libpostproc    
 ```
 如图所示
-![Alt text](image-3.png)
+![Alt text](./image/image-3.png)
 
 ### 下载源代码
 
 * [源代码下载官网](https://ffmpeg.org/releases/)
-选择你需要的版本，比如 `ffmpeg-3.4.1.tar.gz `或`ffmpeg-3.4.1.tar.xz `![Alt text](image-2.png)
+选择你需要的版本，比如 `ffmpeg-3.4.1.tar.gz `或`ffmpeg-3.4.1.tar.xz `![Alt text](./image/image-2.png)
 
 * 解压 如果是Linux或MacOS，可以使用命令`tar -xzvf ffmpeg-3.4.1.tar.gz`或者`tar -xzvf ffmpeg-3.4.1.tar.xz`
 
