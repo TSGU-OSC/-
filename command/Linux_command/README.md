@@ -166,6 +166,26 @@ ssh <user>@<host>：通过 SSH 连接到远程主机。
 ```
 ssh <user>@<host>
 ```
+查看防火墙已开放的端口
+```
+firewall-cmd --zone=public --list-ports
+```
+添加开放的端口80
+```
+firewall-cmd --zone=public --add-port=80/tcp --permanent 
+```
+重载防火墙策略
+```
+firewall-cmd --reload
+```
+查看指定的端口（比如）
+```
+firewall-cmd --zone= public --query-port=80/tcp 
+```
+删除开放的端口80
+```
+firewall-cmd --zone= public --remove-port=80/tcp --permanent
+```
 
 ## 压缩和解压缩
 tar -czvf ：将指定目录压缩为 .tar.gz 归档文件。
