@@ -20,18 +20,18 @@
 
 ***
 
-📢 本开源社团一共有10个仓库，以下是各个仓库的介绍及导航
+📢 本开源社团一共有11个仓库，以下是各个仓库的介绍及导航
   
 - [Gobang](https://gitee.com/TSGU-OSC/gobang)   这是一个用C++和EasyX图形库写的五子棋游戏。
   
  
 - [Best Code Competition](https://gitee.com/TSGU-OSC/BCC)  天津中德应用技术大学开源社团最佳代码PR比赛
   
-- [ffmpeg_learn](https://gitee.com/TSGU-OSC/ffmpeg_learn)  音视频编解码程序ffmpeg的命令行及开发教程仓库
+- [ffmpeg_learn](https://gitee.com/TSGU-OSC/ffmpeg_learn)  音视频编解码程序ffmpeg的命令行及开发教程仓库。
   
 - [2048Game](https://gitee.com/TSGU-OSC/2048-game)   2048小游戏，在有限空间内合成更大数字的游戏，使用了c++和easyx图形库。 
   
-- [AiOS](https://gitee.com/TSGU-OSC/ai-os)  自写操作系统，记录了从零开始学习操作系统的历程，以及AiOS的创作过程
+- [AiOS](https://gitee.com/TSGU-OSC/ai-os)  自写操作系统，记录了从零开始学习操作系统的历程，以及AiOS的创作过程。
 
 - [Qt](https://gitee.com/TSGU-OSC/qt) 这里是一个用于分享和学习Qt项目的地方。  
 
@@ -39,7 +39,9 @@
 
 - [简单数据结构](https://gitee.com/TSGU-OSC/simple-data-structure)  简单数据结构是一个关于基本数据结构的实现和算法的仓库。
 
-- [Java_Projects](https://gitee.com/TSGU-OSC/Java_Projects)   Java_Projects包含了一些Java语言的项目和练习。
+- [Java_Projects](https://gitee.com/TSGU-OSC/Java_Projects)   包含了一些Java语言的项目和练习。
+
+- [社团管理系统](https://gitee.com/TSGU-OSC/OSC_main)   是一个基于Java与前端技术实现的一个社团管理系统。
 
 ***
 
