@@ -9,7 +9,8 @@
 1. [Linux 运维](#linux-运维)
 2. [音视频开发](#音视频开发)
 3. [Docker 环境配置](#docker-环境配置)
-4. [其他主题](#其他主题)
+5. [MySQL环境配置](#mysql-环境配置)
+6. [其他主题](#其他主题)
 
 ## Linux 运维
 
@@ -30,11 +31,19 @@
 
 10. [使用 Docker 部署和管理应用](./docker/README.md)
 
+## MySQL 环境配置
+
+11. [Mysql环境配置](./MysqlMarkdown/README.md)
+
 
 ## 其他主题
 
-11. [MC服务器搭建](./mc_server/README.md)
-12. [Stable Diffusion本地Docker快速部署](./Stable_Diffusion/README.md)
+12. [MC服务器搭建](./mc_server/README.md)
+13. [Stable Diffusion本地Docker快速部署](./Stable_Diffusion/README.md)
+
+14. [Redis环境配置](./RedisMarkdown/README.md)
+
+15. [Minio环境配置](./MinioMarkdown/README.md)
 
 
 ## 贡献指南
