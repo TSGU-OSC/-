@@ -41,7 +41,7 @@
 
 - [Java_Projects](https://gitee.com/TSGU-OSC/Java_Projects)   包含了一些Java语言的项目和练习。
 
-- [社团管理系统](https://gitee.com/TSGU-OSC/OSC_main)   是一个基于Java与前端技术实现的一个社团管理系统。
+- [社团管理系统](https://gitee.com/TSGU-OSC/management-system)   是一个基于Java与前端技术实现的一个社团管理系统。
 
 - [C_C++](https://gitee.com/TSGU-OSC/C_)    这个仓库主要用来存放和分享我们在C语言和C++编程中的经验和成果。在这里，我们致力于提供一系列的代码示例，从基本的语法解释到复杂的项目实践，全面覆盖C和C++的学习领域。
 
