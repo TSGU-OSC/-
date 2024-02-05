@@ -166,6 +166,10 @@ ssh <user>@<host>：通过 SSH 连接到远程主机。
 ```
 ssh <user>@<host>
 ```
+删除ssh host
+```
+ssh-keygen -R <host>
+```
 查看防火墙已开放的端口
 ```
 firewall-cmd --zone=public --list-ports
