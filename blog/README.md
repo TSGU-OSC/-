@@ -9,42 +9,48 @@
 1. [Linux 运维](#linux-运维)
 2. [音视频开发](#音视频开发)
 3. [Docker 环境配置](#docker-环境配置)
-5. [MySQL环境配置](#mysql-环境配置)
-6. [其他主题](#其他主题)
+5. [数据库](#数据库)
+6. [环境配置](#环境配置)
+7. [其他主题](#其他主题)
 
 ## Linux 运维
 
-1. [基本的 Linux 命令行操作](../command/Linux_command/README.md)
-2. [conda环境名称无法显示的解决方案](./conda/README.md)
-3. [Linux_grub启动](./Linux_grub/README.md)
-4. [smb文件传输协议的使用](./linux_smb/README.md)
-5. [三种shell的介绍](./shell/README.md)
-6. [用户权限问题](./user_rights/README.md)
-7. [ssh连接超时问题](./ssh_connect/README.md)
+- [基本的 Linux 命令行操作](../command/Linux_command/README.md)
+- [conda环境名称无法显示的解决方案](./conda/README.md)
+- [Linux_grub启动](./Linux_grub/README.md)
+- [smb文件传输协议的使用](./linux_smb/README.md)
+- [三种shell的介绍](./shell/README.md)
+- [用户权限问题](./user_rights/README.md)
+- [ssh连接超时问题](./ssh_connect/README.md)
+- [root远程登录](./Linux_ssh_root/README.md)
 
 ## 音视频开发
 
-8. [音频处理入门指南](https://gitee.com/TSGU-OSC/ffmpeg_learn)
-9. [视频编码和解码原理](https://gitee.com/TSGU-OSC/ffmpeg_learn/tree/master/command/codec)
+- [音频处理入门指南](https://gitee.com/TSGU-OSC/ffmpeg_learn)
+- [视频编码和解码原理](https://gitee.com/TSGU-OSC/ffmpeg_learn/tree/master/command/codec)
 
 ## Docker 环境配置
 
-10. [使用 Docker 部署和管理应用](./docker/README.md)
+- [使用 Docker 部署和管理应用](./docker/README.md)
 
-## MySQL 环境配置
+## 数据库
 
-11. [Mysql环境配置](./MysqlMarkdown/README.md)
+- [Mysql环境配置](./MysqlMarkdown/README.md)
 
+- [Redis环境配置](./RedisMarkdown/README.md)
+
+- [Minio环境配置](./MinioMarkdown/README.md)
+
+## 环境配置
+
+- [vs code C开发环境搭建](./C_Environment_Configuration/README.md)
+
+- [Conda及python的环境配置](./Conda_Environment/README.md)
 
 ## 其他主题
 
-12. [MC服务器搭建](./mc_server/README.md)
-13. [Stable Diffusion本地Docker快速部署](./Stable_Diffusion/README.md)
-
-14. [Redis环境配置](./RedisMarkdown/README.md)
-
-15. [Minio环境配置](./MinioMarkdown/README.md)
-
+- [MC服务器搭建](./mc_server/README.md)
+- [Stable Diffusion本地Docker快速部署](./Stable_Diffusion/README.md)
 
 ## 贡献指南
 
@@ -52,4 +58,3 @@
 
 
 ---
-
