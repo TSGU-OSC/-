@@ -1,36 +1,66 @@
-# 开放原子开源社团主仓库
+# Introduction
 
-#### Description
-{**When you're done, you can delete the content in this README and update the file with details for others getting started with your repository**}
+***
 
-#### Software Architecture
-Software architecture description
+📢 This warehouse is the navigation warehouse of Hongmeng Society. As an entry point to all warehouse,this warehouse provides quick access to technical documents and other warehouses of the community. 
+  
+🌟 "Open Source Hongmeng Society" is committed to promoting the development of open source technology, providing students with more professional learning opportunities and career development support through the study, practice and promotion of open source technology. Strive to bring more innovation and progress to society and industry in the future.  
+  
 
-#### Installation
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### Instructions
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### Contribution
-
-1.  Fork the repository
-2.  Create Feat_xxx branch
-3.  Commit your code
-4.  Create Pull Request
+<div align="center"> <img src="./resource/image/logo.jpg" width = 500 height = 300 /> </div>
 
 
-#### Gitee Feature
+- 🚩 Open Source Hongmeng Society provides a platform for communication, learning and growth through diversified activities. We encourage members to actively participate, share knowledge and experience, and jointly promote the development of open source technologies. Activities include but are not limited to meetup, workshop, outside study and technical training.
 
-1.  You can use Readme\_XXX.md to support different languages, such as Readme\_en.md, Readme\_zh.md
-2.  Gitee blog [blog.gitee.com](https://blog.gitee.com)
-3.  Explore open source project [https://gitee.com/explore](https://gitee.com/explore)
-4.  The most valuable open source project [GVP](https://gitee.com/gvp)
-5.  The manual of Gitee [https://gitee.com/help](https://gitee.com/help)
-6.  The most popular members  [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+- ☘️ Event Details: [For event details, please click](./event/README.md)  
+
+***
+  
+# Warehouse 
+
+***
+
+📢 This open source community has 11 warehouses in total, and the following is the introduction and navigation of each warehouse.
+  
+- [Gobang](https://gitee.com/TSGU-OSC/gobang)   This is a Gobang game writen in C + + and EasyX  graphics library.
+  
+ 
+- [Best Code Competition](https://gitee.com/TSGU-OSC/BCC)  Tianjin Sino-German University of Applied Technology Open Source Community Best Code PR Competition.
+  
+- [ffmpeg_learn](https://gitee.com/TSGU-OSC/ffmpeg_learn)  Audio and video codec program ffmpeg command line and development tutorial warehouse.
+  
+- [2048Game](https://gitee.com/TSGU-OSC/2048-game)   2048 small game, in the limited space of the composition of larger numbers of games, using C + + and easyx graphics library.
+  
+- [AiOS](https://gitee.com/TSGU-OSC/ai-os)  Self-writing operating system, records the process of learning operating system from scratch, and the creation process of AIOs.
+
+- [Qt](https://gitee.com/TSGU-OSC/qt) This is a place to share and learn about Qt projects.
+
+- [Open source community](https://gitee.com/TSGU-OSC/Root)    Learn to exchange open source knowledge and help students who are interested in open source culture understand open source.
+
+- [Simple data structure](https://gitee.com/TSGU-OSC/simple-data-structure)  Simple data structures are a repository for the implementation and algorithms of basic data structures.
+
+- [Java_Projects](https://gitee.com/TSGU-OSC/Java_Projects)   Includes some Java language projects and exercises.
+
+- [Community management system](https://gitee.com/TSGU-OSC/management-system)   It is a community management system based on Java and front-end technology.
+
+- [C_C++](https://gitee.com/TSGU-OSC/C_)    This warehouse is mainly used to store and share our experiences and achievements in C language and C + + programming. Here, we are committed to providing a series of code examples, from basic syntax interpretation to complex project practice, covering the full range of C and C + + learning areas.
+
+***
+
+# Knowledge navigation 
+
+***
+
+😁 The technical documents and basic knowledge in the knowledge navigation warehouse mainly cover all aspects of the computer field.
+
+In the technical documentation section, you can find in-depth discussions of programming languages such as C, C + +, Java, including syntax, algorithms, best practices, and more. In addition, there are interpretations of various computer science concepts, such as data structures, algorithms, design patterns, and so on.
+
+In the Basics section, you can find configuration guides for various computer environments, including operating systems, development tools, databases, and so on. These materials provide detailed procedures and instructions to help users configure and set up various computer environments.
+
+By reading these technical documents and reviewing the Fundamentals section, you can gain an in-depth understanding of all aspects of the computer world and gain practical programming skills and knowledge of environment configuration. This knowledge and resources will provide important support for your computer learning and development efforts. Here are links to technical documentation and basics:
+
+
+🌟 [Technical documents please click here](./blog/README.md)
+
+
+🚀 [Basics click here](./command/README.md)
