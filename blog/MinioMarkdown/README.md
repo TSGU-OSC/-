@@ -60,8 +60,10 @@ minio/minio server /data --console-address ":9001"
 
 ```
 setx MINIO_ROOT_USER admin
-setx MINIO_ROOT_PASSWORD admin
+setx MINIO_ROOT_PASSWORD admin123
 ```
+
+> **注意：** 账号至少为3位，密码至少为8位
 
 注意：别试图双击exe文件来启动，无效。
 

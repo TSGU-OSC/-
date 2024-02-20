@@ -37,7 +37,7 @@
 
 - [Mysql环境配置](./MysqlMarkdown/README.md)
 
-- [Redis环境配置](./RedisMarkdown/README.md)
+- [Redis环境配置](./RedisMarkdown/redisStudy/README.md)
 
 - [Minio环境配置](./MinioMarkdown/README.md)
 
@@ -46,6 +46,8 @@
 - [vs code C开发环境搭建](./C_Environment_Configuration/README.md)
 
 - [Conda及python的环境配置](./Conda_Environment/README.md)
+
+- [Node.js环境配置](./nodeJsMarkdown/README.md)
 
 ## 其他主题
 
