@@ -184,11 +184,11 @@ firewall-cmd --reload
 ```
 查看指定的端口（比如）
 ```
-firewall-cmd --zone= public --query-port=80/tcp 
+firewall-cmd --zone=public --query-port=80/tcp 
 ```
 删除开放的端口80
 ```
-firewall-cmd --zone= public --remove-port=80/tcp --permanent
+firewall-cmd --zone=public --remove-port=80/tcp --permanent
 ```
 
 ## 压缩和解压缩
