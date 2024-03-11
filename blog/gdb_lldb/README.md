@@ -57,7 +57,9 @@ lldb -- a.out 1 2 3
 ```
 
 ```
-(gdb) break test.c:12
+(lldb) breakpoint set --file test.c --line 12
+(lldb) br s -f test.c -l 12
+(lldb) b test.c:12
 ```
 
 打印断点信息
