@@ -20,7 +20,7 @@
 
 ***
 
-📢 本开源社团一共有11个仓库，以下是各个仓库的介绍及导航
+📢 本开源社团一共有13个仓库，以下是各个仓库的介绍及导航
   
 - [Gobang](https://gitee.com/TSGU-OSC/gobang)   这是一个用C++和EasyX图形库写的五子棋游戏。
   
@@ -44,6 +44,8 @@
 - [社团管理系统](https://gitee.com/TSGU-OSC/management-system)   是一个基于Java与前端技术实现的一个社团管理系统。
 
 - [C_C++](https://gitee.com/TSGU-OSC/C_)    这个仓库主要用来存放和分享我们在C语言和C++编程中的经验和成果。在这里，我们致力于提供一系列的代码示例，从基本的语法解释到复杂的项目实践，全面覆盖C和C++的学习领域。
+
+- [website](https://gitee.com/TSGU-OSC/website) 社团门户网站是一个基于Rspress框架的网站，用于展示社团的基本信息以及社团的公告等。
 
 ***
 
