@@ -191,6 +191,15 @@ firewall-cmd --zone=public --query-port=80/tcp
 firewall-cmd --zone=public --remove-port=80/tcp --permanent
 ```
 
+### 终端代理加速proxychains4
+```
+sudo apt install proxychains4
+sudo vim /etc/proxychains4.conf 
+```
+注释掉socks4 改为以下示例
+`socks5 127.0.0.1 7890`
+
+
 ## 压缩和解压缩
 tar -czvf ：将指定目录压缩为 .tar.gz 归档文件。
 ```
