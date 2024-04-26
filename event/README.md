@@ -17,3 +17,4 @@
 * 🚀[第八次活动：华为昇腾AI全国行](./active8/README.md)
 
 * 🚀[第九次活动：开放原子校源行（北理工站）](./active9/README.md)
+* 🚀[第十次活动：华为昇腾AI创享日·天津站](./active10/README.md)
