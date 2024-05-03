@@ -20,7 +20,7 @@
 
 ***
 
-📢 This openharmony community has 11 repositorys in total, and the following is the introduction and navigation of each repository.
+📢 This openharmony community has 14 repositorys in total, and the following is the introduction and navigation of each repository.
 
 - [Gobang](https://gitee.com/TSGU-OSC/gobang)    This is a Gobang game writen in C + + and EasyX  graphics library.
   
