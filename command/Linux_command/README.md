@@ -199,6 +199,19 @@ sudo vim /etc/proxychains4.conf
 注释掉socks4 改为以下示例
 `socks5 127.0.0.1 7890`
 
+### 网络扫描
+nmap
+```
+nmap -sn 192.168.137.0/24
+nmap -sn 192.168.0.0/16
+```
+bettercap
+```
+sudo bettercap 
+net.probe on 
+net.show
+```
+
 
 ## 压缩和解压缩
 tar -czvf ：将指定目录压缩为 .tar.gz 归档文件。
