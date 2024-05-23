@@ -42,6 +42,11 @@ mv ：将文件或目录从源位置移动到目标位置。
 mv <source> <destination>
 ```
 
+计算当前目录（包括子目录）下cpp，h，py代码行总数
+```
+grep -r --include=*.{cpp,h,py} . | wc -l
+```
+
 ## 文件操作
 cat ：显示文件的内容。
 ```
