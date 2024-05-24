@@ -47,6 +47,12 @@ mv <source> <destination>
 grep -r --include=*.{cpp,h,py} . | wc -l
 ```
 
+递归查询命名包含`_hmp`的文件
+```
+find /root/miniconda3/envs/deoldify_py39/ -type f -name '*_hmp*'
+
+```
+
 ## 文件操作
 cat ：显示文件的内容。
 ```
