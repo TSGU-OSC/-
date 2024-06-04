@@ -295,3 +295,31 @@ lspci | grep -i vga
 ```
 nvidia-smi
 ```
+
+## 分区操作
+
+检查分区组可用空间
+```
+vgdisplay
+```
+初始化硬盘
+```
+pvcreate /dev/sdb1
+```
+添加至分区组
+```
+vgextend cs_win10pe /dev/sdb1
+```
+若有可用空间，添加分区组容量
+```
+lvextend -L +10G /dev/mapper/cs_win10pe-root
+```
+调整文件系统大小
+ext4
+```
+resize2fs /dev/mapper/cs_win10pe-root
+```
+xfs
+```
+xfs_growfs /dev/mapper/cs_win10pe-root
+```
