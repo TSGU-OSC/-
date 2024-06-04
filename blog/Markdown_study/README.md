@@ -1,9 +1,5 @@
 ## Markdown 高效记笔记
 
-
-
-[TOC]
-
 ### 介绍
 
 - 简介：
@@ -183,11 +179,11 @@
 
 ### 语法讲解
 
-- 基本语法
+- #### 基本语法
 
-- 官方文档[Markdown 基本语法 | Markdown 官方教程](https://markdown.com.cn/basic-syntax/)
+- #### 官方文档[Markdown 基本语法 | Markdown 官方教程](https://markdown.com.cn/basic-syntax/)
 
-   - 标题语法
+   - ##### 标题语法
 
      **语法：**
      
