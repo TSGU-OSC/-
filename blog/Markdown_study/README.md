@@ -200,9 +200,9 @@
 
      **效果：** *（技术文档展示时会出现些许问题，所以部分采用图片呈现）*
 
-     ![Tag syntax - display](./Images/Tag syntax - display.png)
+     ###### ![Tag syntax - display](./Images/Tag syntax - display.png)
 
-       
+      
 
      **快捷键:**
      
@@ -375,7 +375,6 @@
    
        _文段2_
        
-   
    - 下划线：
    
        <u>文段</u>
@@ -384,6 +383,8 @@
    - 高亮：
    
        ==文段==（不同`主题`或者不同`编辑器`，高亮的颜色会不同）
+   
+       *gitee没有正常展示，在编辑器中是有效果的，可以下载下来进行查看*
    
    
    - 粗体 + 斜体 混合使用：
@@ -484,10 +485,10 @@
    
         >![Reference syntax - display - 3](./Images/Reference syntax - display - 3.png)
       	>
-        > - Your attitude, not your aptitude, will determine youraltitude.
+        >- Your attitude, not your aptitude, will determine youraltitude.
         >- What you do today can improve all your tomorrows.
-        > 
-        > *It always* seems impossible until it's done.
+        >
+        >*It always* seems impossible until it's done.
    
    
    
