@@ -1,8 +1,8 @@
-## Markdown 高效记笔记
+# Markdown 高效记笔记
 
-### 介绍
+## 介绍
 
-- 简介：
+- ### 简介：
 
   - Markdown是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档。
 
@@ -18,7 +18,7 @@
 
   
 
-- 发展历史：
+- ### 发展历史：
 
   - Markdown由<u>John Gruber</u>在2004年创造。在语法上有很大一部分是跟<u>亚伦·斯沃茨（Aaron Swartz）</u>共同合作的
 
@@ -46,7 +46,7 @@
 
     
 
-- 主要特点
+- ### 主要特点
 
   - **简洁性**：Markdown的语法设计非常直观，学习曲线平缓，用户可以在短时间内掌握基本的文档编辑技巧。
 
@@ -56,9 +56,9 @@
 
     
 
-- Markdown的优势与局限性
+- ### Markdown的优势与局限性
 
-  - 优势：
+  - #### 优势：
 
     - **易于学习使用**：基础语法简单，用户无需专业知识即可快速上手。
   
@@ -67,7 +67,7 @@
     - **格式转换灵活**：轻松转换为HTML、PDF等格式，方便分享和发布，这对于需要在不同平台发布内容的内容创作者来说尤其重要。
 
   
-  - 局限性：
+  - #### 局限性：
   
     - **功能有限**：对于复杂格式和高级排版，Markdown的支持不如专业的文档处理软件，如Word或LaTeX。
     
@@ -96,9 +96,9 @@
         
   
 
-### 支持软件的介绍、下载与安装
+## 支持软件的介绍、下载与安装
 
-- 支持软件：
+- ### 支持软件：
 
   - 常见的软件，比如Vscode、typora、obsidian等；
 
@@ -135,7 +135,7 @@
       
         
 
-- 支持软件下载：
+- ### 支持软件下载：
 
   - Typora：[Typora 官方中文站 (typoraio.cn)](https://typoraio.cn/)
 
@@ -149,7 +149,7 @@
   
     
 
-### 配置编写环境
+## 配置编写环境
 
   - 配置文件选项：
     - 启动选项
@@ -177,13 +177,13 @@
       
     
 
-### 语法讲解
+## 语法讲解
 
-- #### 基本语法
+- ### 基本语法
 
-- #### 官方文档[Markdown 基本语法 | Markdown 官方教程](https://markdown.com.cn/basic-syntax/)
+- ### 官方文档[Markdown 基本语法 | Markdown 官方教程](https://markdown.com.cn/basic-syntax/)
 
-   - ##### 标题语法
+   - ### 标题语法
 
      **语法：**
      
@@ -198,7 +198,7 @@
 
      **效果：** *（技术文档展示时会出现些许问题，所以部分采用图片呈现）*
 
-     ![标签语法 - 效果展示]( ./Images/标签语法 - 效果展示.png )
+     ![Tag syntax - display](./Images/Tag syntax - display.png)
 
      
 
@@ -485,7 +485,7 @@
    
       - 用法三：*（技术文档展示时会出现些许问题，所以部分采用图片呈现）*
    
-        >![引用语法 - 效果展示 - 用法三](./Images/引用语法 - 效果展示 - 用法三.png)
+        >![Reference syntax - display - 3](./Images/Reference syntax - display - 3.png)
       	>
         > - Your attitude, not your aptitude, will determine youraltitude.
         >- What you do today can improve all your tomorrows.
