@@ -198,12 +198,22 @@
 
        
 
-     **效果：** *（技术文档展示时会出现些许问题，所以部分采用图片呈现）*
+     **效果：** *（技术文档展示时会出现些许问题，且同样无法展示图片，故采用转义字符展示）*
 
-     ###### ![Tag syntax - display](./Images/Tag syntax - display.png)
+     \# 第一级标签
 
-      
+     \## 第二级标签
 
+     \### 第三级标签
+     
+     \#### 第四级标签
+     
+     \##### 第五级标签
+     
+     \###### 第六级标签
+     
+       
+     
      **快捷键:**
      
      一级标题: Ctrl + 1
@@ -481,9 +491,9 @@
         >
         > > 文段2
    
-      - 用法三：*（技术文档展示时会出现些许问题，所以部分采用图片呈现）*
+      - 用法三：*（技术文档展示时会出现些许问题，且同样无法展示图片，故采用转义符展示）*
    
-        >![Reference syntax - display - 3](./Images/Reference syntax - display - 3.png)
+        >/#### It's not whether you get knocked down, it's whether you get up.
       	>
         >- Your attitude, not your aptitude, will determine youraltitude.
         >- What you do today can improve all your tomorrows.
