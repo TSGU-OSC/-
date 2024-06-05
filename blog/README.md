@@ -9,8 +9,9 @@
 1. [Linux 运维](#linux-运维)
 2. [音视频开发](#音视频开发)
 3. [Docker 环境配置](#docker-环境配置)
-5. [数据库](#数据库)
-6. [环境配置](#环境配置)
+4. [数据库](#数据库)
+5. [环境配置](#环境配置)
+6. [基础知识](#基础知识)
 7. [其他主题](#其他主题)
 
 ## Linux 运维
@@ -48,6 +49,10 @@
 - [Conda及python的环境配置](./Conda_Environment/README.md)
 
 - [Node.js环境配置](./nodeJsMarkdown/README.md)
+
+## 基础知识
+
+- [了解并学习Markdown语言](./Markdown_study/README.md)
 
 ## 其他主题
 
