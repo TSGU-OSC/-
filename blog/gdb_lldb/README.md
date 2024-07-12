@@ -134,3 +134,8 @@ lldb -- a.out 1 2 3
 (lldb) thread step-out
 (lldb) finish
 ```
+
+## 动态库信息查看
+```
+(gdb) info sharedlibrary 
+```
