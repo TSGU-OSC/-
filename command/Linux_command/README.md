@@ -44,11 +44,11 @@ mv <source> <destination>
 
 计算当前目录（包括子目录）下cpp，h，py代码行总数
 ```
-grep -r --include=*.{cpp,h,py} . | wc -l
+grep -r '' --include=*.{cpp,h,py} . | wc -l
 ```
 or (on macos)
 ```
-find . \( -name '*.cpp' -o -name '*.h' -o -name '*.c' \) -print0 | xargs -0 cat | wc -l
+find . -maxdepth 2 \( -name '*.cpp' -o -name '*.h' -o -name '*.py' \) -print0 | xargs -0 cat | wc -l
 ```
 
 递归查询命名包含`_hmp`的文件
