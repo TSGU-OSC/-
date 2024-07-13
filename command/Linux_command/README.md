@@ -46,6 +46,10 @@ mv <source> <destination>
 ```
 grep -r --include=*.{cpp,h,py} . | wc -l
 ```
+or (on macos)
+```
+find . \( -name '*.cpp' -o -name '*.h' -o -name '*.c' \) -print0 | xargs -0 cat | wc -l
+```
 
 递归查询命名包含`_hmp`的文件
 ```
