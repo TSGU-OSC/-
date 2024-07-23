@@ -135,7 +135,17 @@ lldb -- a.out 1 2 3
 (lldb) finish
 ```
 
-## 动态库信息查看
+## 信息查看
+### 动态库
 ```
 (gdb) info sharedlibrary 
 ```
+### 线程
+```
+(gdb) info threads
+```
+### crash backtrace
+```
+(gdb) backtrace
+```
+
