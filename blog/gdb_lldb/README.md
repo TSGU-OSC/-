@@ -62,6 +62,11 @@ lldb -- a.out 1 2 3
 (lldb) b test.c:12
 ```
 
+条件断点
+```
+(gdb) break /root/workspace/bmf_OSPP/bmf/sdk/cpp_sdk/src/task.cpp:99 if stream_id == 0
+```
+
 打印断点信息
 ```
 (gdb) info break
@@ -136,16 +141,52 @@ lldb -- a.out 1 2 3
 ```
 
 ## 信息查看
+### 查看当前执行代码段
+```
+(gdb) list
+```
 ### 动态库
 ```
 (gdb) info sharedlibrary 
+```
+### 临时变量
+```
+(gdb) info locals
 ```
 ### 线程
 ```
 (gdb) info threads
 ```
-### crash backtrace
+### 栈
 ```
 (gdb) backtrace
+```
+### 内存映射表
+```
+info proc mappings
+```
+### 打印相对地址
+```
+(gdb) p &((bmf_sdk::Task *)0)->inputs_queue_
+```
+### 观察点设置
+```
+(gdb) watch *(bmf_sdk::PacketQueueMap*)0x7fffbcc51b70
+```
+### 观察点查看
+```
+(gdb) info watchpoints
+```
+### 查看周围内存
+```
+(gdb) x/20x 0x7fffbcc51b70
+```
+### 查看当前指令
+```
+(gdb) x/i $pc
+```
+### 单步执行
+```
+(gdb) si
 ```
 
